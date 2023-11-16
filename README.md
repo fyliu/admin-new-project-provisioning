@@ -26,7 +26,7 @@ Explain the different ways people can contribute. For example:
 
 Remember to provide direct links to each channel.
 
-## Installation instructions
+### Installation instructions
 
 1. Step-by-step instructions help new contributors get a development environment up and running quickly.
 1. You'll want to find the balance between being specific enough for novices to follow, without being so specific that you reinvent the wheel by providing overly-basic instructions that can be found elsewhere.
@@ -53,11 +53,11 @@ To create a new issue, please use the blank issue template (available when you c
 
 - Provide instructions.
 
-# Contact info
+## Contact info
 
 Include at least one way (or more, if possible) to reach your team with questions or comments.
 
-### Licensing
+## Licensing
 
 Include details about the project's open source status.
 
