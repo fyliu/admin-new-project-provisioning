@@ -1,4 +1,9 @@
 site_name: New Project Provisioning
+
+nav:
+  - Home: index.md
+  - License: license.md
+
 theme:
   name: material
   features:
@@ -6,3 +11,17 @@ theme:
 repo_url: https://github.com/hackforla/admin-new-project-provisioning
 repo_name: hackforla/admin-new-project-provisioning
 edit_uri: edit/main/docs/
+
+markdown_extensions:
+
+  # Python Markdown
+  - toc:
+      title: On this page
+      permalink: true
+
+  # PyMdown Extensions
+  - pymdownx.snippets
+
+watch:
+  - README.md
+  - LICENSE
