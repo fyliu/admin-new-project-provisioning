@@ -10,6 +10,11 @@ theme:
   name: material
   features:
     - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.sections
+
 repo_url: https://github.com/hackforla/admin-new-project-provisioning
 repo_name: hackforla/admin-new-project-provisioning
 edit_uri: edit/main/docs/
@@ -25,12 +30,28 @@ extra:
 markdown_extensions:
 
   # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
   - toc:
       title: On this page
       permalink: true
 
   # PyMdown Extensions
+  - pymdownx.betterem
+  - pymdownx.blocks.details
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 watch:
   - README.md
