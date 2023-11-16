@@ -2,6 +2,7 @@ site_name: New Project Provisioning
 
 nav:
   - Home: index.md
+  - MkDocs: mkdocs.md
   - License: license.md
 
 theme:
